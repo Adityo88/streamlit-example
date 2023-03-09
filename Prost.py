@@ -15,6 +15,7 @@ def main():
                 amount = st.number_input("Hourly Rate in $")
             with col2:
                 hour_per_week = st.number_input("Hours Per Week", 1, 120)
+                submit_button = st.form_submit_button(label='SignUp')
 
         # method1
         with st.form(key='form1'):
