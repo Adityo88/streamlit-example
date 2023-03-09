@@ -6,8 +6,8 @@ def main():
     menu = ["Home" , "About"]
     choice = st.sidebar.selectbox("Menu", menu)
     
-    if choice == "Home":
-      st.subheader("Forms Tutorial") 
+if choice == "Home":
+    st.subheader("Forms Tutorial") 
     
       with st.form(key='salaryform'):
            col1,col2,col3 = st.beta_columns([3,2,1])
@@ -34,8 +34,8 @@ def main():
     submit_button2 = form2.form_submit_button("Login")
                             
                             
-    else:
-        st.subheader("About")
+ else:
+    st.subheader("About")
     
     
     
