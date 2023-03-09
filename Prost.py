@@ -21,7 +21,7 @@ if choice == "Home":
     #method2
     form2 = st.form(key='form2')
     username = form2.text_input("Username")
-    jobtype = form2.selectbox("Job,["Dev","Data Scientist", "Data Analyst"])
+    jobtype = form2.selectbox("Job",["Dev","Data Scientist", "Data Analyst"])
     submit_button2 = form2.form_submit_button("Login")
                             
                             
