@@ -12,7 +12,7 @@ if choice == "Home":
     with st.form(key='form1'):
         firstname = st.text_input("Firstname")
         lastname = st.text_input("Lastname")
-        dob = st.date_input("Date of Birth)
+        dob = st.date_input("Date of Birth")
         
         submit_button = st.form_submit_button(label='SignUp')
                  
