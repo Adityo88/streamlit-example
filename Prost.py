@@ -31,8 +31,7 @@ if choice == "Home":
     jobtype = form2.selectbox("Job",["Dev","Data Scientist", "Data Analyst"])
     submit_button2 = form2.form_submit_button("Login")
                             
-                            
- else:
+else:
     st.subheader("About")
     
     
