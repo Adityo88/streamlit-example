@@ -12,10 +12,10 @@ def main():
       with st.form(key='salaryform'):
            col1,col2,col3 = st.beta_columns([3,2,1])
         
-        with col1:
+           with col1:
             amount = st.number_input("Hourly Rate in $")
             
-        with col2:
+           with col2:
             hour_per_week = st.number_input("Hours Per Week", 1,120)
     #method1
     with st.form(key='form1'):
