@@ -26,7 +26,7 @@ def main():
         submit_button = st.form_submit_button(label='SignUp')
                  
     if submit_button:
-       st.succsess("Hello {} you ve created an account". format(firstname))
+            st.succsess("Hello {} you ve created an account". format(firstname))
     #method2
     form2 = st.form(key='form2')
     username = form2.text_input("Username")
