@@ -19,7 +19,7 @@ if choice == "Home":
     if submit_button:
        st.succsess("Hello {} you ve created an account". format(firstname))
     #method2
-    form2 = st.form(key='form2)
+    form2 = st.form(key='form2')
     username = form2.text_input("Username")
     jobtype = form2.selectbox("Job,["Dev","Data Scientist", "Data Analyst"])
     submit_button2 = form2.form_submit_button("Login")
