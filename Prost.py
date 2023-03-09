@@ -34,8 +34,8 @@ def main():
     submit_button2 = form2.form_submit_button("Login")
                             
                             
-else:
-    st.subheader("About")
+    else:
+        st.subheader("About")
     
     
     
