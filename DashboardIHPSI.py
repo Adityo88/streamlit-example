@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 def read_data():
-    df = pd.read_excel("Data/Tindak Lanjut.xlsx", sheet_name='IHPSI2021')
+    df = pd.read_excel("Data/IHPSI2021.xlsx", sheet_name='IHPSI2021')
     return df
 
 def main():
